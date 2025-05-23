@@ -1,3 +1,38 @@
+# Pago - Погодное приложение
+
+Это веб-приложение для отображения погоды в городах Беларуси, созданное с использованием Next.js, React и TypeScript.
+
+## Особенности
+
+*   Поиск погоды по городам Беларуси.
+*   Отображение текущей температуры, влажности, скорости ветра и условий.
+*   Просмотр 5-дневного прогноза погоды.
+*   История запросов и погодная статистика.
+*   Современный и адаптивный дизайн.
+
+## Технологии
+
+*   [Next.js](https://nextjs.org/) (App Router)
+*   [React](https://reactjs.org/)
+*   [TypeScript](https://www.typescriptlang.org/)
+*   CSS Modules
+*   ESLint
+# Уберите или замените следующую строку в зависимости от того, используете ли вы Tailwind:
+# *   [Tailwind CSS](https://tailwindcss.com/)
+
+## Начало работы
+
+## Скрипты
+
+*   `npm run dev`: Запуск сервера для разработки.
+*   `npm run build`: Сборка проекта для продакшена.
+*   `npm run start`: Запуск продакшен сервера.
+*   `npm run lint`: Запуск ESLint для проверки кода.
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
