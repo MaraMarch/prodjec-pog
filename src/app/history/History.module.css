@@ -1,0 +1,205 @@
+/* app/History.module.css */
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  padding: 20px;
+  font-family: 'Inter', system-ui, sans-serif;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px 0;
+  margin-bottom: 40px;
+}
+
+.navLink {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.navLink:hover {
+  color: white;
+  background: rgba(255,255,255,0.1);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.historyCard {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  width: 100%;
+  max-width: 1200px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.titleIcon {
+  font-size: 2.5rem;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.statCard {
+  background: rgba(255,255,255,0.05);
+  padding: 25px;
+  border-radius: 15px;
+  border: 1px solid rgba(255,255,255,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.statCard:hover {
+  transform: translateY(-5px);
+}
+
+.statIcon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.statValue {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin: 15px 0;
+  background: linear-gradient(45deg, #ff6b6b, #ffa600);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.statDetails {
+  color: rgba(255,255,255,0.7);
+  font-size: 0.9rem;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  border-left: 4px solid #0070f3;
+  padding-left: 15px;
+  margin-bottom: 25px;
+}
+
+.heatWave {
+  display: grid;
+  gap: 20px;
+}
+
+.heatCard {
+  background: rgba(255,255,255,0.05);
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: transform 0.3s ease;
+}
+
+.heatCard:hover {
+  transform: translateX(10px);
+}
+
+.heatNumber {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ff6b6b;
+  margin-right: 25px;
+  width: 60px;
+  text-align: center;
+}
+
+.heatContent {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heatTemp {
+  display: flex;
+  align-items: baseline;
+  gap: 15px;
+}
+
+.tempValue {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.tempCity {
+  color: rgba(255,255,255,0.7);
+  font-size: 1.1rem;
+}
+
+.heatDate {
+  color: rgba(255,255,255,0.7);
+  font-size: 0.9rem;
+}
+
+.historyList {
+  display: grid;
+  gap: 15px;
+}
+
+.historyItem {
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.5fr auto;
+  gap: 20px;
+  align-items: center;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.itemDate {
+  color: rgba(255,255,255,0.7);
+}
+
+.itemCity {
+  font-weight: 500;
+}
+
+.itemTemp {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffa600;
+}
+
+.itemBadge {
+  background: #0070f3;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
