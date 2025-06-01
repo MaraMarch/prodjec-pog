@@ -17,8 +17,6 @@
 *   [TypeScript](https://www.typescriptlang.org/)
 *   CSS Modules
 *   ESLint
-# Уберите или замените следующую строку в зависимости от того, используете ли вы Tailwind:
-# *   [Tailwind CSS](https://tailwindcss.com/)
 
 ## Начало работы
 
