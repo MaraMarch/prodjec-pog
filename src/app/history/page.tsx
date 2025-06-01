@@ -1,3 +1,4 @@
+// app/history/page.tsx
 'use client';
 import Link from 'next/link';
 import styles from './History.module.css';
@@ -24,8 +25,12 @@ export default function History() {
   return (
     <div className={styles.container}>
       <nav className={styles.nav}>
-        <Link href="" className={styles.navLink}>Главная</Link>
-        <Link href="/forecast" className={styles.navLink}>Прогноз</Link>
+        <Link href="/" className={styles.navLink}>Главная</Link>
+        <Link href="/forecast" className={styles.navLink}>Прогноз на 5 дней</Link>
+        <Link href="/forecast-3day" className={styles.navLink}>Прогноз на 3 дня</Link>
+        <Link href="/forecast-weekend" className={styles.navLink}>Прогноз на выходные</Link>
+        <Link href="/forecast-week" className={styles.navLink}>Прогноз на неделю</Link>
+        <Link href="/forecast-10day" className={styles.navLink}>Прогноз на 10 дней</Link>
         <Link href="/history" className={styles.navLink}>История</Link>
       </nav>
 
